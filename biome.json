@@ -1,0 +1,16 @@
+{
+	"linter": {
+		"rules": {
+			"preset": "none",
+			"correctness": {
+				"noUnusedImports": "error",
+				"noUnusedVariables": "error",
+				"noUnreachable": "error"
+			},
+			"suspicious": {
+				"noDuplicateObjectKeys": "error",
+				"noDoubleEquals": "error"
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+.gk-canvas { display:block; width:100%; height:100%; touch-action:none; user-select:none; overflow:hidden; }
+.gk-edges path,.gk-interactions path { stroke:var(--gk-edge,#8095ae); fill:none; stroke-width:1.6; }
+.gk-canvas marker path { fill:var(--gk-edge,#8095ae); }
+.gk-interactions { pointer-events:none; }
+.gk-interactions path { stroke:#4f46e5; stroke-dasharray:5 4; }
+.gk-node { cursor:grab; }
+.gk-node:active { cursor:grabbing; }
+.gk-node:focus-visible { outline:2px solid #6473ff; }
+.gk-default { fill:#fff; stroke:#9aaec8; }
+.gk-node text { fill:#182740; font:14px system-ui,sans-serif; pointer-events:none; }
+.gk-html { width:100%; height:100%; }
+.gk-port { fill:#6758ec; stroke:white; stroke-width:2; cursor:crosshair; }
