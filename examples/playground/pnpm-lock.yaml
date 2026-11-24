@@ -333,7 +333,7 @@ packages:
     resolution: {integrity: sha512-lTyOMnOcmRBzdCv6/4zUZCrEhV0xrqQiUZBZtVcbmLHBXKLnN8q89v/wKRF/Q0HbwVsqbIG3o5HDoFl9sduM+g==}
 
   '@your-scope/graphkit@file:../../your-scope-graphkit-0.1.0.tgz':
-    resolution: {integrity: sha512-xWXd3f+sLtjkI1gdPKBt9DhsVBYmj4s6Qd0kFjwi1SG+tJydinIU2nPCovy8tqycQ/0n2N/bZi7j3//YdpHgqA==, tarball: file:../../your-scope-graphkit-0.1.0.tgz}
+    resolution: {integrity: sha512-saTNa8mq/VL816fDlqfz6I9FdRe35Wd+e6rOCDozPvtt1mTzRrCcArKjmQdzlDJKbREczsU0kfgJydEWc2UfOg==, tarball: file:../../your-scope-graphkit-0.1.0.tgz}
     version: 0.1.0
     peerDependencies:
       react: ^18 || ^19

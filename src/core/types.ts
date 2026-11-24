@@ -33,7 +33,7 @@ export interface PositionedNode extends LayoutNode, Point {}
 export interface PositionedEdge extends LayoutEdge { points: Point[] }
 export interface LayoutResult { nodes: PositionedNode[]; edges: PositionedEdge[]; bounds: Bounds }
 
-export function validateGraph(nodes: LayoutNode[], edges: LayoutEdge[]): void {
+export function validateGraph(nodes: readonly LayoutNode[], edges: readonly LayoutEdge[]): void {
   const ids = new Set<string>();
   for (const { id, width, height } of nodes) {
     if (typeof id !== 'string' || !id || ids.has(id)) throw new Error(`Invalid or duplicate node ID: ${id}`);

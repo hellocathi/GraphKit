@@ -12,6 +12,10 @@
       "types": "./dist/layout/index.d.ts",
       "import": "./dist/layout/index.js"
     },
+    "./canvas": {
+      "types": "./dist/canvas/index.d.ts",
+      "import": "./dist/canvas/index.js"
+    },
     "./react": {
       "types": "./dist/react/index.d.ts",
       "import": "./dist/react/index.js"
